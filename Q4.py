@@ -1,9 +1,11 @@
+'''author@monicayan'''
+
 import numpy as np
 from scipy.io   import loadmat, savemat
 from sklearn.preprocessing import scale
 
 # Load hw3data.mat
-hw3 = loadmat('C:/Users/Shalalalala/Documents/hw3data.mat')
+hw3 = loadmat('hw3data.mat')
 
 # Define x and y
 train_data = hw3['data']
