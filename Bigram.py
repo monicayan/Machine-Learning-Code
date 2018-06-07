@@ -10,8 +10,8 @@ from scipy.sparse import csr_matrix
 from sklearn.feature_extraction.text import CountVectorizer
 import gc
 gc.collect()
-data=pd.read_csv('/home/ec2-user/reviews_tr.csv')
-test=pd.read_csv('/home/ec2-user/reviews_te.csv')
+data=pd.read_csv('reviews_tr.csv')
+test=pd.read_csv('reviews_te.csv')
 
 print(data.shape)
 #train_data[i,0] label y
