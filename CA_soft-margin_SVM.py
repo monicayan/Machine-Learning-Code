@@ -1,3 +1,7 @@
+
+'''HW3 - Problem 4'''
+
+
 '''author@monicayan'''
 
 import numpy as np

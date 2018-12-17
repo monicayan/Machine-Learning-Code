@@ -1,3 +1,6 @@
+
+'''HW3-Problem3'''
+
 '''authora@monicayan'''
 
 from scipy.io import loadmat
