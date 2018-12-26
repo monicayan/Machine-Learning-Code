@@ -27,7 +27,7 @@ trained *Logistic Regression, Decision Tree, Random Forest* and *Bagging Classif
 
 use gradient descent to optimize the logistic regression MLE parameters (with explicit affine expansion):
 
-$\min_{\beta_{0} \in \mathbb{R}, \beta{0} \in \mathbb{R}^d} \frac{1}{n} \sum_{i=1}^{n} \{\ln (1+\exp(\beta_{0}+x_i^\mathrm{T}\beta)) - y_i(\beta_0+x_i^{\mathrm{T}}\beta)\}$
+$$\min_{\beta_{0} \in \mathbb{R}, \beta{0} \in \mathbb{R}^d} \frac{1}{n} \sum_{i=1}^{n} \{\ln (1+\exp(\beta_{0}+x_i^\mathrm{T}\beta)) - y_i(\beta_0+x_i^{\mathrm{T}}\beta)\}$$
 
 and observe the convergence behavior; try different threhold for convergence.
 
