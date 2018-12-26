@@ -27,7 +27,7 @@ trained *Logistic Regression, Decision Tree, Random Forest* and *Bagging Classif
 
 use gradient descent to optimize the logistic regression MLE parameters (with explicit affine expansion):
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\min_{\beta_{0} \in \mathbb{R}, \beta{0} \in \mathbb{R}^d} \frac{1}{n} \sum_{i=1}^{n} \{\ln (1+\exp(\beta_{0}+x_i^\mathrm{T}\beta)) - y_i(\beta_0+x_i^{\mathrm{T}}\beta)\}" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\min_{\beta_{0}&space;\in&space;\mathbb{R},&space;\beta{0}&space;\in&space;\mathbb{R}^d}&space;\frac{1}{n}&space;\sum_{i=1}^{n}&space;\{\ln&space;(1&plus;\exp(\beta_{0}&plus;x_i^\mathrm{T}\beta))&space;-&space;y_i(\beta_0&plus;x_i^{\mathrm{T}}\beta)\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min_{\beta_{0}&space;\in&space;\mathbb{R},&space;\beta{0}&space;\in&space;\mathbb{R}^d}&space;\frac{1}{n}&space;\sum_{i=1}^{n}&space;\{\ln&space;(1&plus;\exp(\beta_{0}&plus;x_i^\mathrm{T}\beta))&space;-&space;y_i(\beta_0&plus;x_i^{\mathrm{T}}\beta)\}" title="\min_{\beta_{0} \in \mathbb{R}, \beta{0} \in \mathbb{R}^d} \frac{1}{n} \sum_{i=1}^{n} \{\ln (1+\exp(\beta_{0}+x_i^\mathrm{T}\beta)) - y_i(\beta_0+x_i^{\mathrm{T}}\beta)\}" /></a>
 
 and observe the convergence behavior; try different threhold for convergence.
 
